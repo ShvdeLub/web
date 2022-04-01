@@ -27,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    background-color: rgb(232, 226, 217);
 }
 ol, ul {
 	list-style: none;
@@ -42,6 +43,18 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.atelier_image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.atelier{
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
 }
 
 .background{
@@ -61,6 +74,10 @@ table {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    gap: 2px;
+}
+.container div img{
+    border-radius: 10px;
 }
 
 span19 {
