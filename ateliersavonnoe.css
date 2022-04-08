@@ -28,6 +28,10 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     background-color: rgb(232, 226, 217);
+    font-family: 'Aileron', sans-serif;
+    font-size: 25px;
+    
+    
 }
 ol, ul {
 	list-style: none;
@@ -58,16 +62,31 @@ table {
 }
 
 .background{
-    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(248, 245, 240);
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 20px;
+    padding-left: 200px;
+
+}
+
+.icons text{
+    text-align: center;
 }
 
 .icons{
     display: flex;
-    flex-wrap: wrap;
-    width: 120px;
+    flex-direction: row;
+    width: auto;
+    gap: 50px;
 }
 
-
+.icons img{
+    width: 20px;
+    margin: auto;
+}
 
 .container{
     display: flex;
